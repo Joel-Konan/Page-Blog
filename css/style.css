@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Nav Styles */
+.nav{
+    width: 100%;
+    height:80px;
+    background-color: #ccc;
+}
+
+/*Box contain styles*/
+.box-contain{
+    width: 65%;
+    margin: 25px auto;
+}
+
+/*first part Styles*/
+.first-part{
+    display: flex;
+}
+
+.left-part{
+    flex: 2;
+    min-height: 100px;
+    padding: 20px;
+}
+
+.left-part__illustration{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    border-radius: 8px;
+}
+
+.first-part__description{
+    padding: 28px 0 5px;
+}
+
+.first-part__description span{
+    color: #4b7bd9;
+}
+
+.first-part__description h1{
+    font-weight: bold;
+    font-size: 40px;
+    margin: 18px 0;
+}
+
+.first-part__description p{
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.btn-link{
+    border: none;
+    font-size: 17px;
+    padding: 10px 20px;
+    background-color: #0156fb;
+    color: white;
+    border-radius: 5px;
+}
+
+.right-part{
+    flex: 1;
+    height: 100px;
+    padding: 20px;
+}
+
+.item{
+    display: flex;
+    margin-bottom: 26px;
+}
+
+.item__illustration{
+    height: 150px;
+    width: 100px;
+    flex: 1;
+    background-color: black;
+    border-radius: 6px;
+}
+
+.item__description{
+    flex: 1;
+    padding-left: 18px;
+}
+
+.item__description span{
+    color: #cb5159;
+}
+
+.item__description h4{
+    margin: 18px 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Second part styles */
+
+.second-part{
+    margin-top: 60px;
+}
+
+.second-part__row{
+    display: flex;
+    margin-top: 20px;
+}
+
+.card{
+    margin-right: 35px;
+    flex: 1;
+    min-height: 250px;
+}
+
+.card-illustration{
+    height: 230px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.card-description{
+    padding: 18px 0;
+}
+
+.card-description span{
+    color: #4b7bd9;
+}
+
+.card-description h3{
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+.card-description a{
+    color: black;
+}
+
+.card-description a:hover{
+    color: #4b7bd9;
+}
+
+/* Three part styles */
+.three-part{
+    margin-top: 60px;
+}
+
+.three-part__row{
+    display: flex;
+}
+
+.three-part__left{
+    flex: 2;
+    padding: 20px 0;
+}
+
+.item-illustration{
+    width: 25%;
+    height: 150px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.three-part__right{
+    flex: 1;
+}
+.three-part__right .illustration{
+    height: 500px;
+    background-color: black;
+    border-radius: 7px;
+}
