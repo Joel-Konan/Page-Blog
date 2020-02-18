@@ -4,11 +4,72 @@
     box-sizing: border-box;
 }
 
+/*General*/
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
 /* Nav Styles */
 .nav{
     width: 100%;
-    height:80px;
-    background-color: #ccc;
+    display: flex;
+    justify-content: space-between;
+    padding: 26px 50px;
+}
+
+.logo{
+    font-size: 21px;
+    color:#4b7bd9;
+    font-weight: bold;
+}
+
+.nav ul{
+    display: inline-flex;
+}
+
+.nav ul li{
+    list-style: none;
+    margin-right: 25px;
+}
+
+.nav ul li a{
+    color: black;
+    font-size: 18px;
+    transition: all .5s;
+}
+
+.nav ul li a:hover{
+    color: #4b7bd9;
+}
+
+.nav form{
+    display: flex;
+    width: 16%;
+}
+
+.btn-search{
+    border: none;
+    padding: 10px 20px;
+    background-color: #0156fb;
+    color: white;
+    border-radius: 5px;
+    margin-left: -10px;
+}
+
+.nav form input[type="text"]{
+    width: 100%;
+    height: 32px;
+    padding: 5px;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid #CCC;
+}
+
+.nav form input:focus{
+    outline: none;
 }
 
 /*Box contain styles*/
